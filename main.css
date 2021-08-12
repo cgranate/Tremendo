@@ -1,0 +1,139 @@
+body{
+    max-width: 100%;
+    max-height: 100%;
+}
+/*NAVBAR*/
+
+.navbar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 149px;
+    height: 135px
+}
+
+.navbar .breadcrumb {
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.navbar a{
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.navbar a:link{
+    color: #9B9A9A
+}
+
+.navbar a:visited{
+    color: #000000
+}
+
+.navbar hr{
+    position: block;
+    width: 85%;
+    border-left: 50.5px;
+    border-top: 213px;
+    border-color: #E6DFDF
+}
+
+/*PAGE AND GRID*/
+.masonry-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.masonry-wrapper .one{
+    position: absolute;
+    width: 429px;
+    height: 681px;
+    left: 50px;
+    top: 247px;
+}
+
+.masonry-wrapper .two{
+    position: absolute;
+    width: 366px;
+    height: 451px;
+    left: 518px;
+    top: 247px;
+}
+
+.masonry-wrapper .three{
+    position: absolute;
+    width: 464px;
+    height: 685px;
+    left: 923px;
+    top: 247px;
+}
+
+.masonry-wrapper .eight{
+    position: absolute;
+    width: 841px;
+    height: 542px;
+    left: 45px;
+    top: 1611px;
+}
+
+.masonry-wrapper .nine{
+    position: absolute;
+    width: 465px;
+    height: 407px;
+    left: 924px;
+    top: 1746px;
+}
+
+.masonry-wrapper .four{
+    position: absolute;
+    width: 435px;
+    height: 609px;
+    left: 48px;
+    top: 964px;
+}
+
+.masonry-wrapper .five{
+    position: absolute;
+    width: 362px;
+    height: 398px;
+    left: 522px;
+    top: 737px;
+}
+
+.masonry-wrapper .six{
+    position: absolute;
+    width: 362px;
+    height: 398px;
+    left: 517px;
+    top: 1171px;
+}
+
+.masonry-wrapper .seven{
+    position: absolute;
+    width: 464px;
+    height: 736px;
+    left: 923px;
+    top: 971px;
+}
+
+/*FOOTER*/
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 128px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #4A4A4A;
+}
+
+footer .fa-whatsapp, .footer-wrapper .fa-instagram, .footer-wrapper .fa-facebook-f{
+    height: 50px;
+    width: 50px;
+}
