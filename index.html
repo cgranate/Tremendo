@@ -7,39 +7,120 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&display=swap" rel="stylesheet">
    <script src="https://kit.fontawesome.com/8be9f143c4.js" crossorigin="anonymous"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
 <body>
     <!--NAVBAR-->
-    <div class="navbar">
+    <ul class="text-center" id="up">
         <img src="/images/logo.jpg" />
-        <div class="breadcrumb">
-            <a href="index.html">Home</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="servicios-tarifas.html">Servicios y Tarifas</a>
-            <a href="contacto.html">Contacto</a>
-            <hr />
+      </ul>
+    
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid ">
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active " href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="nosotros-sobre.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios y Tarifas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </nav>
 
+      <hr style="margin-left: 6rem; margin-right: 6rem;">
     <!--HOME-->
-    <div class="masonry-wrapper">
-                <img src="/images/home/imagen1-home.png" alt="Dummy Image" class="one">
-                <img src="/images/home/imagen2-home.png" alt="Dummy Image" class="two">
-                <img src="/images/home/imagen3-home.png" alt="Dummy Image" class="three">
-                <img src="/images/home/imagen4-home.png" alt="Dummy Image" class="four">
-                <img src="/images/home/imagen5-home.png" alt="Dummy Image" class="five">
-                <img src="/images/home/imagen6-home.png" alt="Dummy Image" class="six">
-                <img src="/images/home/imagen7-home.png" alt="Dummy Image" class="seven">
-                <img src="/images/home/imagen8-home.png" alt="Dummy Image" class="eight">
-                <img src="/images/home/imagen-home.png" alt="Dummy Image" class="nine">
-    </div>
+    <div class="container mt-5">
+                <div class="masonry-wrapper row text-center" >
 
+                    <div class="col-4 mb-5">
+                             <img src="/images/home/imagen1-home.png" alt="Dummy Image" class="one img-fluid">
+                    </div>
+
+                    <div class="col-4">
+                            <img src="/images/home/imagen2-home.png" alt="Dummy Image" class="two img-fluid">
+                            <img src="/images/home/imagen5-home.png" alt="Dummy Image" class="three img-fluid mt-3">
+                    </div>
+
+                    <div class="col-4">
+                            <img src="/images/home/imagen3-home.png" alt="Dummy Image" class="four img-fluid">
+                    </div>
+
+                </div>
+
+                <div class="masonry-wrapper row text-center ">
+
+                    <div class="col-4">
+                        <img src="/images/home/imagen4-home.png" alt="Dummy Image" class="five img-fluid">
+                    </div>
+
+                    <div class="col-4 mt-3">
+                        <img src="/images/home/imagen6-home.png" alt="Dummy Image" class="six img-fluid">
+                    </div>
+
+                    <div class="col-4 ">
+                        <img src="/images/home/imagen7-home.png" alt="Dummy Image" class="seven img-fluid">
+                    </div>
+
+                </div>
+                <div class="masonry-wrapper row text-center mt-5">
+                    <div class="col-8">
+                        <img src="/images/home/imagen8-home.png" alt="Dummy Image" class="eight img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img src="/images/home/imagen-home.png" alt="Dummy Image" class="nine img-fluid">
+                    </div>
+                </div>
+            </div>
+
+<div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <img src="/images/home/imagen1-home.png" alt="Dummy Image" class="one img-fluid mt-3">
+                    <img src="/images/home/imagen4-home.png" alt="Dummy Image" class="five img-fluid mt-5">
+                    
+                </div>
+                <div class="col">
+                    <img src="/images/home/imagen2-home.png" alt="Dummy Image" class="two img-fluid mt-3">
+                    <img src="/images/home/imagen5-home.png" alt="Dummy Image" class="three img-fluid mt-3">
+                    <img src="/images/home/imagen6-home.png" alt="Dummy Image" class="six img-fluid mt-3">
+                </div>
+                <div class="col">
+                    <img src="/images/home/imagen3-home.png" alt="Dummy Image" class="four img-fluid mt-3">
+                    <img src="/images/home/imagen7-home.png" alt="Dummy Image" class="seven img-fluid mt-3">
+                    
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-8"><img src="/images/home/imagen8-home.png" alt="Dummy Image" class="eight img-fluid mt-3"></div>
+                <div class="col-4"><img src="/images/home/imagen-home.png" alt="Dummy Image" class="nine img-fluid mt-3"></div>
+            </div>
+        </div>
     <!--FOOTER-->
-        <footer>
-            <i class="fab fa-whatsapp"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook-f"></i>
-        </footer>
+    <div class="text-center footeri mt-5">
+            
+        <a href=""><i class="fab fa-whatsapp"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        
+      </div>
+
+       <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
